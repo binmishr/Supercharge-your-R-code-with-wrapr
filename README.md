@@ -419,10 +419,8 @@ install.packages(c("devtools", "htmltools", "shiny",
                    "miniUI", "formatR", "wrapr"))
 ```
 
-Then we install this package itself from GitHub:
-
 ``` r
-devtools::install_github("WinVector/addinexamples")
+Library("addinexamples")
 ```
 
 Finally bind "Insert `%.>%`" to `F9` (which has a right-facing glyph on some Mac keyboards) via `Tools->Addins->BrowseAddins->KeyboardShortCuts`.
